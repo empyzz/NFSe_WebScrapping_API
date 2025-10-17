@@ -42,7 +42,7 @@ class Settings:
     # ---------- Helper ----------
     @classmethod
     def get_database_url(cls):
-        base_dir = Path(__file__).resolve().parents[3]  # Vai para Projectnfse
+        base_dir = Path(__file__).resolve().parents[2]  # Vai para pasta Root do Projeto
         
         # Se a conexão for sqlite, montar o caminho absoluto, incluindo a subpasta database
         if cls.DB_CONNECTION == "sqlite":
