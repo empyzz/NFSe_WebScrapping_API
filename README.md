@@ -12,8 +12,7 @@ Serviço em **Python 3.11.8 + FastAPI** que emite Notas Fiscais de Serviço (
 | Módulo               | Descrição                                                              |
 | -------------------- | ---------------------------------------------------------------------- |
 | **FastAPI**          | Endpoints REST (`/api/emitir-nfse`, `/api/nfse/:uuid`, logs, listagem) |
-| **Playwright Async** | Chromium headless; timeout e download de XML/PDF                       |
-| **MySQL**            | Tabelas `invoices`, `logs` compartilhadas com projeto PHP              |
+| **Playwright Async** | Chromium headless; timeout e download de XML/PDF                       |            
 | **BackgroundTasks**  | A emissão roda em segundo plano; retorna imediatamente ao front‑end    |
 
 ---
